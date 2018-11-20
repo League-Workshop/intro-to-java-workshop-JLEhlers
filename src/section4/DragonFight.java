@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 public class DragonFight {
 	// 1. Create a main method and put all of the code below inside of it
 	public static void main(String[] args) {
-		
+
 		ImageIcon dragon = new ImageIcon("src/section4/dragonPicture.jpg");		
 		
 		JOptionPane.showMessageDialog(null, "Defeat the dragon to take its treasure!", "Dragon Fighter", 0, dragon);
@@ -21,12 +21,12 @@ public class DragonFight {
 		
 		
 		// 6.  Delete the slashes at the beginning of the next line.  
-		//while(playerHealth>0 && dragonHealth>0) {    //this line of code keeps the battle going until someone's health reaches 0 
+		while(playerHealth>0 && dragonHealth>0) {    //this line of code keeps the battle going until someone's health reaches 0 
 		
 		// 7. Add a closing mustache at the very bottom of this program (since we just added an opening mustache on the previous step).
-		
+		}
 		// 8. Ask the player in a pop-up if they want to attack the dragon with a yell or a kick
-		
+		JOptionPane.showInputDialog("Would you like to attack the dragon with a yell or a kick?");
 		// 9. If they typed in "yell":
 		
 			//-- Find a random number between 0 and 10 and store it in dragonDamage
