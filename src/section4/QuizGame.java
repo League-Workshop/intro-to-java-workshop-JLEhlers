@@ -7,13 +7,13 @@ public class QuizGame {
 	public static void main(String[] args) {
 		
 		// 1.  Create a variable to hold the user's score 
-		String score;
-		score=JOptionPane.showMessageDialog(null, "0");
+		int score=0;
 		// 2.  Ask the user a question 
 		String answer;
 		answer=JOptionPane.showInputDialog("Do you like sticks?");
 		// 3.  Use an if statement to check if their answer is correct
 		if(answer.equalsIgnoreCase("yes")) {
+		score++;
 		
 	
 		}

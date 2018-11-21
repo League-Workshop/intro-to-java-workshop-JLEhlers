@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
 	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
 	int answer;
-	answer=new Random().nextInt(4);
+	answer=new Random().nextInt(5);
 	// 3. Print out this variable
 System.out.println("answer");
 	// 4. Get the user to enter something that they think is awesome
@@ -40,6 +40,9 @@ if(answer==3) {
 	JOptionPane.showMessageDialog(null, "Spiders scream when they're raw");
 }
 	// -- write your own answer
+if(answer==4) {
+	JOptionPane.showMessageDialog(null, "Elmo's mustache is better than that");
+}
 }
 }
 
